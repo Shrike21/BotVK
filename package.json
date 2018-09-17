@@ -6,13 +6,13 @@
   "dependencies": {
     "botact": "^2.4.2",
     "express": "^4.16.3",
-    "node-vk-bot-api": "^2.1.1"
+    "node-vk-bot-api": "^1.2.0"
   },
   "devDependencies": {},
   "scripts": {
     "start": "node app.js"
   },
-  "engines":{
+  "engines": {
     "node": "10.10.0"
   },
   "author": "",
