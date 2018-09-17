@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser')
-const  PORT = 3000;
+/* const  PORT = 3000; */
 const { Botact } = require('botact')
 const bot = new Botact({
   confirmation: "31e7993a",
@@ -31,4 +31,4 @@ bot.command('start', ({ reply }) => {
   reply('This is start!')
 })
 app.post('/', bot.listen)
-app.listen(PORT, () => console.log('Example app listening on port ', PORT));
+/* app.listen(PORT, () => console.log('Example app listening on port ', PORT)); */
