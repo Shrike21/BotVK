@@ -6,7 +6,7 @@
   "dependencies": {
     "botact": "^2.4.2",
     "express": "^4.16.3",
-    "node-vk-bot-api": "^1.2.0"
+    "node-vk-bot-api": "^2.1.1"
   },
   "devDependencies": {},
   "scripts": {
