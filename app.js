@@ -27,7 +27,7 @@ app.set('port', (process.env.PORT || 5000));
 bot.event('group_join', ({ reply }) => {
   reply('Напиши "ЭКМ" - расписание группы ЭКМ-01-17')
   reply('Напиши "ИГФ" - расписание группы ИГФМ-02-17')
-}
+})
 
  bot.hears(/(ЭКМ|экм|Экм)/, function (raspisanie) {
  var result;
