@@ -5,6 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "bot-commander": "^1.1.1",
     "botact": "^2.4.2",
     "express": "^4.16.3",
     "node-vk-bot-api": "^2.1.1",
