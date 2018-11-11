@@ -17,7 +17,7 @@ app.set('port', (process.env.PORT || 5000));
     response.send(result);
 }).listen(app.get('port'), function() {
     console.log('App is running, server is listening on port ', app.get('port'));
-});  *
+});
 
  bot.on(({ reply }) => {
   reply('Напиши "ЭКМ" - расписание группы ЭКМ-01-17')
@@ -386,5 +386,5 @@ app.use(bodyParser.json());
 
 
 app.post('/', bot.listen)
- app.listen(PORT, () => console.log('Example app listening on port111 ', PORT));
+/*  app.listen(PORT, () => console.log('Example app listening on port111 ', PORT)); */
  
